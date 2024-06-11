@@ -1,11 +1,11 @@
-package com.ps.mui3.tip.icons
+package com.ps.tip.dark.icons
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.Context
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.ps.mui3.tip.R
+import com.ps.tip.dark.R
 import org.xmlpull.v1.XmlPullParser
 import java.util.Locale
 

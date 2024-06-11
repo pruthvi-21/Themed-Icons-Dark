@@ -1,4 +1,4 @@
-package com.ps.mui3.tip.icons
+package com.ps.tip.dark.icons
 
 import android.content.ComponentName
 

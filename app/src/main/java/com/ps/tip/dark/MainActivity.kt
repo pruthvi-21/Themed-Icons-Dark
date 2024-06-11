@@ -1,4 +1,4 @@
-package com.ps.mui3.tip
+package com.ps.tip.dark
 
 import android.os.Bundle
 import android.widget.TextView
@@ -12,9 +12,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.search.SearchBar
 import com.google.android.material.search.SearchView
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-import com.ps.mui3.tip.icons.IconsAdapter
-import com.ps.mui3.tip.icons.IconsHelper
-import com.ps.mui3.tip.utils.DebounceJob
+import com.ps.tip.dark.icons.IconsAdapter
+import com.ps.tip.dark.icons.IconsHelper
+import com.ps.tip.dark.utils.DebounceJob
 
 class MainActivity : AppCompatActivity() {
 

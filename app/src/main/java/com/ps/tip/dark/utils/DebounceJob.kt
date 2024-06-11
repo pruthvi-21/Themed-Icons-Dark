@@ -1,4 +1,4 @@
-package com.ps.mui3.tip.utils
+package com.ps.tip.dark.utils
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job
