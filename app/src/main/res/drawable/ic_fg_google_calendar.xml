@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M47.48,60.1C46.66,59.54 46.08,58.72 45.77,57.64L47.69,56.85C47.86,57.52 48.17,58.03 48.6,58.4C49.03,58.76 49.56,58.94 50.17,58.94C50.8,58.94 51.34,58.75 51.79,58.37C52.24,57.99 52.46,57.5 52.46,56.91C52.46,56.31 52.23,55.82 51.75,55.44C51.28,55.06 50.68,54.86 49.97,54.86H48.86V52.97H49.85C50.47,52.97 50.98,52.8 51.4,52.47C51.82,52.14 52.03,51.68 52.03,51.11C52.03,50.59 51.84,50.18 51.47,49.88C51.09,49.57 50.62,49.42 50.04,49.42C49.48,49.42 49.03,49.57 48.7,49.87C48.37,50.17 48.13,50.54 47.97,50.97L46.08,50.18C46.33,49.47 46.79,48.84 47.47,48.3C48.14,47.75 49.01,47.48 50.06,47.48C50.83,47.48 51.53,47.63 52.15,47.93C52.77,48.23 53.26,48.65 53.61,49.18C53.96,49.71 54.13,50.31 54.13,50.97C54.13,51.65 53.97,52.22 53.64,52.69C53.32,53.16 52.92,53.52 52.44,53.77V53.88C53.07,54.15 53.58,54.55 53.98,55.09C54.38,55.62 54.59,56.27 54.59,57.02C54.59,57.77 54.4,58.44 54.01,59.03C53.63,59.62 53.1,60.08 52.44,60.42C51.76,60.76 51.01,60.93 50.17,60.93C49.2,60.93 48.31,60.65 47.48,60.1Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M59.25,50.58L57.16,52.1L56.1,50.5L59.88,47.78H61.33V60.63H59.25V50.58Z" />
+    <path
+        android:fillAlpha="0.5"
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M65.05,65.05H75L65.05,75L65.05,65.05L65.05,65.05Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M33,65.05V71.68C33,73.52 34.48,75 36.32,75H42.95V65.05H33Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M75,42.95V36.32C75,34.48 73.52,33 71.68,33H65.05V42.95H75Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M44.95,75H65.05V65.05H44.95V75Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M75,42.95H65.05V65.05H75V42.95Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:fillType="evenOdd"
+        android:pathData="M33,36.32C33,34.48 34.48,33 36.32,33H63.05V42.95H42.95V65.05L33,65.05L33,36.32ZM65.05,42.95H65.05L65.05,33H65.05V42.95Z" />
+</vector>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingVertical="20dp">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:importantForAccessibility="no"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/icon_label"
+        style="@style/DialogInfoTitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="App name" />
+
+    <TextView
+        style="@style/DialogInfoSubTitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="@string/dialog_sub_head_drawable_name" />
+
+    <TextView
+        android:id="@+id/icon_drawable_name"
+        style="@style/DialogInfoBodyTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="adap_app_name" />
+
+    <TextView
+        style="@style/DialogInfoSubTitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/dialog_sub_head_package_name" />
+
+    <TextView
+        android:id="@+id/icon_package_name"
+        style="@style/DialogInfoBodyTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="com.ps.mui3.tip" />
+</LinearLayout>

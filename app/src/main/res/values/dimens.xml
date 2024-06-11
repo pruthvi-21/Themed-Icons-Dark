@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="demo_bg_fill_alpha">.11</dimen>
+    <dimen name="bg_stroke_width">2</dimen>
+    <dimen name="bg_stroke_alpha">.3</dimen>
+</resources>
