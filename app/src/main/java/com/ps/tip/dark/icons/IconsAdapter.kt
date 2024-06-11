@@ -1,4 +1,4 @@
-package com.ps.mui3.tip.icons
+package com.ps.tip.dark.icons
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.ps.mui3.tip.R
+import com.ps.tip.dark.R
 
 class IconsAdapter(
     private val context: Context,
