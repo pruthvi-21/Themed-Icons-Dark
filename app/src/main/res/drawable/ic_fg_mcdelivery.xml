@@ -1,0 +1,33 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M61.91,35.19c3.09,0 5.61,13.1 5.61,29.24h4.5c0,-17.41 -4.53,-31.5 -10.14,-31.5 -3.19,0 -6.03,4.24 -7.88,10.87 -1.85,-6.63 -4.69,-10.87 -7.88,-10.87 -5.58,0 -10.14,14.09 -10.14,31.5h4.5c0,-16.17 2.52,-29.24 5.61,-29.24s5.61,12.09 5.61,27.01h4.5c0.06,-14.92 2.58,-27.01 5.71,-27.01" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M45.17,72.94a1.08,1.08 0,1 1,-1.08 -1.08,1.08 1.08,0 0,1 1.08,1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M49.15,73.64a1.08,1.08 0,1 1,-1.08 -1.08,1.12 1.12,0 0,1 1.08,1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M53.14,73.93A1.08,1.08 0,1 1,52.06 72.85a1.12,1.12 0,0 1,1.08 1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M57.13,73.93A1.08,1.08 0,1 1,56.04 72.85a1.12,1.12 0,0 1,1.08 1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M61.11,73.64a1.08,1.08 0,1 1,-1.08 -1.08,1.12 1.12,0 0,1 1.08,1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M65.1,72.94a1.08,1.08 0,1 1,-1.08 -1.08,1.08 1.08,0 0,1 1.08,1.08" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M38.31,68.89h0a1.95,1.95 0,0 1,1.95 1.95,1.91 1.91,0 0,1 -0.57,1.37 1.99,1.99 0,0 1,-1.37 0.57,1.95 1.95,0 0,1 -1.95,-1.95 1.91,1.91 0,0 1,0.57 -1.37,2.05 2.05,0 0,1 1.37,-0.57m0,-0.8a2.74,2.74 0,1 0,2.74 2.74,2.74 2.74,0 0,0 -2.74,-2.74" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M72.56,70.84a2.74,2.74 0,1 1,-2.74 -2.74,2.74 2.74,0 0,1 2.74,2.74" />
+</vector>

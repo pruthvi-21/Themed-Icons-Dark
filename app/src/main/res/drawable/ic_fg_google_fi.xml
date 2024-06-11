@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108.0dip"
+    android:height="108.0dip"
+    android:viewportWidth="90.0"
+    android:viewportHeight="90.0">
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M32.007,61.902C33.668,61.902 35.014,60.542 35.014,58.865C35.014,57.188 33.668,55.828 32.007,55.828C30.346,55.828 29,57.188 29,58.865C29,60.542 30.346,61.902 32.007,61.902Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M36.289,45.377H47.283C49.256,45.377 50.856,43.762 50.856,41.769C50.856,39.776 49.256,38.16 47.283,38.16H36.332C37.205,39.096 37.741,40.358 37.741,41.746C37.741,43.157 37.188,44.437 36.289,45.377Z" />
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M32.573,45.377C34.546,45.377 36.146,43.762 36.146,41.769C36.146,39.776 34.546,38.16 32.573,38.16C30.6,38.16 29,39.776 29,41.769C29,43.762 30.6,45.377 32.573,45.377Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M35.747,47.547C34.946,48.406 34.456,49.563 34.456,50.836C34.456,52.132 34.965,53.308 35.791,54.172H32.28C30.469,54.172 29,52.689 29,50.86C29,49.03 30.469,47.547 32.28,47.547H35.747Z" />
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M39.202,54.173C41.014,54.173 42.483,52.689 42.483,50.86C42.483,49.03 41.014,47.547 39.202,47.547C37.391,47.547 35.922,49.03 35.922,50.86C35.922,52.689 37.391,54.173 39.202,54.173Z" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M53.267,28C52.297,29.007 51.7,30.381 51.7,31.896C51.7,33.381 52.273,34.729 53.207,35.73H32.827C30.713,35.73 29,34 29,31.865C29,29.731 30.713,28 32.827,28H53.267Z" />
+    <path
+        android:fillAlpha="0.75"
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M57.202,35.73C59.316,35.73 61.029,34 61.029,31.865C61.029,29.73 59.316,28 57.202,28C55.089,28 53.375,29.73 53.375,31.865C53.375,34 55.089,35.73 57.202,35.73Z" />
+</vector>

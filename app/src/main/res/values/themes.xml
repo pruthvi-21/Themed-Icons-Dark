@@ -1,0 +1,31 @@
+<resources>
+
+    <style name="BaseTheme" parent="Theme.MUI3ThemedIconPack">
+        <item name="android:statusBarColor">?colorSurface</item>
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="android:windowLightStatusBar">?isLightTheme</item>
+        <item name="android:windowLightNavigationBar">?isLightTheme</item>
+
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+    </style>
+
+    <style name="Theme.MUI3ThemedIconPack" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DialogInfoTitleTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.TitleLarge</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+
+    <style name="DialogInfoSubTitleTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.ActionBar.Subtitle
+        </item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DialogInfoBodyTextStyle">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+</resources>

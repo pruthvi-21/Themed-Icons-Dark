@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:pathData="M90,90L72,90v0L54,90v0L36,90v0L18,90v0h0L18,72h0L18,54h0L18,36h0L18,18h0v0L36,18v0L54,18v0L72,18v0L90,18v0h0L90,36h0L90,54h0L90,72h0L90,90h0v0ZM90,90L90,72L72,72L72,90ZM72,90L72,72L54,72L54,90ZM54,90L54,72L36,72L36,90ZM36,90L36,72L18,72L18,90ZM90,72L90,54L72,54L72,72ZM72,72L72,54L54,54L54,72ZM54,72L54,54L36,54L36,72ZM36,72L36,54L18,54L18,72ZM90,54L90,36L72,36L72,54ZM72,54L72,36L54,36L54,54ZM54,54L54,36L36,36L36,54ZM36,54L36,36L18,36L18,54ZM90,36L90,18L72,18L72,36ZM72,36L72,18L54,18L54,36ZM54,36L54,18L36,18L36,36ZM36,36L36,18L18,18L18,36Z"
+        android:strokeWidth=".25"
+        android:strokeAlpha="0.25"
+        android:strokeColor="@color/fg_icon_tint" />
+    <path
+        android:fillColor="@color/fg_icon_tint"
+        android:pathData="M60.14,43.08a6.71,6.71 0,0 0,-12.35 0.01L39.33,63.21A4.17,4.17 0,0 0,43.18 69h9.43a4.19,4.19 0,1 0,-0.01 -8.38l-1.61,0.01a0.95,0.95 0,0 1,-0.88 -1.32l3,-7.15a0.93,0.93 0,0 1,1.72 0l6.13,14.31A4.06,4.06 0,0 0,64.82 69a4.17,4.17 0,0 0,3.85 -5.8Z" />
+</vector>

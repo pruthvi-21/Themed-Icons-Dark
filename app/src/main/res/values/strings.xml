@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Themed Icons</string>
+    <string name="dialog_sub_head_drawable_name">Drawable:</string>
+    <string name="dialog_sub_head_package_name">Package Name:</string>
+    <string name="search_bar_hint">Search through %1$d icons</string>
+    <string name="search_view_hint">Search icons</string>
+    <string name="no_search_results">No search results</string>
+    <string name="search_result_count">%1$d results</string>
+</resources>

@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="54"
+    android:viewportHeight="68">
+    <group
+        android:scaleX="0.31838924"
+        android:scaleY="0.40093458"
+        android:translateX="18.40349"
+        android:translateY="20.494444">
+        <path
+            android:fillColor="@color/fg_icon_tint"
+            android:pathData="M25.15,42.54L46.21,42.54C50.26,42.54 53.54,39.26 53.54,35.21L53.54,7.33C53.54,3.28 50.26,0 46.21,0L18.33,0C14.28,0 11,3.28 11,7.33L11,42.54L11.03,42.54L11.03,48.63C11.03,51.38 12.79,52.24 14.95,50.54L25.15,42.54L25.15,42.54ZM22.5,15.17C22.5,13.14 24.14,11.5 26.17,11.5L38.27,11.5C40.3,11.5 41.94,13.14 41.94,15.17L41.94,27.27C41.94,29.3 40.3,30.94 38.27,30.94L26.17,30.94C24.14,30.94 22.5,29.3 22.5,27.27L22.5,15.17L22.5,15.17Z"
+            android:strokeWidth="1.0"
+            android:strokeColor="#00000000" />
+        <path
+            android:fillColor="@color/fg_icon_tint"
+            android:pathData="M0,61.26a6.26,6.26 0,1 0,12.52 0a6.26,6.26 0,1 0,-12.52 0z"
+            android:strokeWidth="1.0"
+            android:strokeColor="#00000000" />
+    </group>
+</vector>
