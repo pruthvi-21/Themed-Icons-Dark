@@ -3,13 +3,13 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path
-        android:fillColor="#00000000"
-        android:pathData="M33.56,54.28C30.73,46.64 30.61,39.67 30.61,35.35C37.91,31.68 46.69,30 54,30C61.31,30 70.09,31.68 77.39,35.35C77.39,39.67 77.28,46.64 74.44,54.28C71.53,62.14 65.7,70.76 54,77.83C42.3,70.76 36.47,62.14 33.56,54.28Z"
-        android:strokeWidth="2"
-        android:strokeColor="@color/fg_icon_tint" />
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:fillType="evenOdd"
-        android:pathData="M53.11,62.36L67.86,42.48C66.78,41.62 65.83,42.23 65.31,42.7L65.29,42.7L52.99,55.5L48.36,49.92C46.15,47.37 43.14,49.31 42.44,49.83L53.11,62.36Z" />
+  <path
+      android:pathData="M33.56,54.28C30.73,46.64 30.61,39.67 30.61,35.35C37.91,31.68 46.69,30 54,30C61.31,30 70.09,31.68 77.39,35.35C77.39,39.67 77.28,46.64 74.44,54.28C71.53,62.14 65.7,70.76 54,77.83C42.3,70.76 36.47,62.14 33.56,54.28Z"
+      android:strokeWidth="2"
+      android:fillColor="#00000000"
+      android:strokeColor="#65AD76"/>
+  <path
+      android:pathData="M53.11,62.36L67.86,42.48C66.78,41.62 65.83,42.23 65.31,42.7H65.29L52.99,55.5L48.36,49.92C46.15,47.37 43.14,49.31 42.44,49.83L53.11,62.36Z"
+      android:fillColor="#65AD76"
+      android:fillType="evenOdd"/>
 </vector>

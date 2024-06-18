@@ -3,7 +3,7 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:pathData="M65.5,36L71.64,36L58.24,51.31 74,72.16L61.66,72.16l-9.67,-12.64L40.93,72.16L34.79,72.16L49.12,55.78 34,36L46.66,36L55.39,47.55ZM63.35,68.49L66.75,68.49L44.81,39.48L41.16,39.48Z" />
+  <path
+      android:pathData="M65.5,36H71.64L58.24,51.31L74,72.16H61.66L51.99,59.52L40.93,72.16H34.79L49.12,55.78L34,36H46.66L55.4,47.55L65.5,36ZM63.35,68.49H66.75L44.81,39.48H41.16L63.35,68.49Z"
+      android:fillColor="#E6E6E6"/>
 </vector>

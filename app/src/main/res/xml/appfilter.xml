@@ -892,7 +892,7 @@
     <item
         component="ComponentInfo{com.google.android.inputmethod.latin/com.google.android.apps.inputmethod.libs.framework.core.LauncherActivity}"
         drawable="adap_google_board"
-        label="GBoard" />
+        label="Google Keyboard (GBoard)" />
     <item
         component="ComponentInfo{com.google.android.calculator/com.android.calculator2.Calculator}"
         drawable="adap_google_calculator"
@@ -904,7 +904,7 @@
     <item
         component="ComponentInfo{com.google.samples.apps.cardboarddemo/com.google.vr.cardboard.paperscope.carton.Home2Dv2}"
         drawable="adap_google_cardboard"
-        label="Cardboard" />
+        label="Google Cardboard" />
     <item
         component="ComponentInfo{com.google.android.apps.dynamite/com.google.android.apps.dynamite.startup.StartUpActivity}"
         drawable="adap_google_chat"
@@ -916,19 +916,19 @@
     <item
         component="ComponentInfo{com.chrome.beta/com.google.android.apps.chrome.Main}"
         drawable="adap_google_chrome_beta"
-        label="Chrome Beta" />
+        label="Google Chrome Beta" />
     <item
         component="ComponentInfo{com.chrome.dev/com.google.android.apps.chrome.Main}"
         drawable="adap_google_chrome_dev"
-        label="Chrome Dev" />
+        label="Google Chrome Dev" />
     <item
         component="ComponentInfo{com.google.android.apps.classroom/com.google.android.apps.classroom.classroomflutter.MainActivity}"
         drawable="adap_google_classroom"
-        label="Classroom" />
+        label="Google Classroom" />
     <item
         component="ComponentInfo{com.google.android.deskclock/com.android.deskclock.DeskClock}"
         drawable="adap_google_clock"
-        label="Clock" />
+        label="Google Clock" />
     <item
         component="ComponentInfo{com.google.android.apps.cloudconsole/com.google.android.apps.cloudconsole.common.MainContainerActivity}"
         drawable="adap_google_cloud"
@@ -940,11 +940,11 @@
     <item
         component="ComponentInfo{com.google.android.apps.village.boond/com.google.android.apps.crowdsource.beetle.MainActivity}"
         drawable="adap_google_crowdsource"
-        label="Crowdsource" />
+        label="Google Crowdsource" />
     <item
         component="ComponentInfo{com.google.android.apps.wellbeing/com.google.android.apps.wellbeing.settings.LauncherActivity}"
         drawable="adap_google_digital_wellbeing"
-        label="Digital Wellbeing" />
+        label="Google Digital Wellbeing" />
     <item
         component="ComponentInfo{com.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.NewMainProxyActivity}"
         drawable="adap_google_docs"
@@ -960,7 +960,7 @@
     <item
         component="ComponentInfo{com.google.android.apps.kids.familylink/com.google.android.apps.kids.familylink.flutter.standalone.HomeActivity}"
         drawable="adap_google_family_link"
-        label="Family Link" />
+        label="Google Family Link" />
     <item
         component="ComponentInfo{com.google.android.apps.tycho/com.google.android.apps.tycho.AccountDetailsActivity}"
         drawable="adap_google_fi"
@@ -968,11 +968,11 @@
     <item
         component="ComponentInfo{com.google.android.apps.nbu.files/com.google.android.apps.nbu.files.home.HomeActivity}"
         drawable="adap_google_files"
-        label="Files by Google" />
+        label="Google Files" />
     <item
         component="ComponentInfo{com.google.android.apps.adm/com.google.android.apps.adm.activities.MainActivity}"
         drawable="adap_google_find_my_device"
-        label="Find My Device" />
+        label="Google Find My Device" />
     <item
         component="ComponentInfo{com.google.android.apps.fitness/com.google.android.apps.fitness.welcome.WelcomeActivity}"
         drawable="adap_google_fit"
@@ -980,7 +980,7 @@
     <item
         component="ComponentInfo{com.google.android.apps.photosgo/com.google.android.apps.photosgo.home.HomeActivity}"
         drawable="adap_google_gallery"
-        label="Gallery" />
+        label="Google Gallery" />
     <item
         component="ComponentInfo{com.google.android.apps.nbu.paisa.user/com.google.nbu.paisa.flutter.gpay.app.LauncherActivity}"
         drawable="adap_google_gpay"
@@ -992,7 +992,7 @@
     <item
         component="ComponentInfo{com.google.android.apps.jam/com.google.android.apps.jam.jelly.home.HomeActivity}"
         drawable="adap_google_jamboard"
-        label="Jamboard" />
+        label="Google Jamboard" />
     <item
         component="ComponentInfo{com.google.android.keep/com.google.android.keep.activities.BrowseActivity}"
         drawable="adap_google_keep"
@@ -1004,7 +1004,7 @@
     <item
         component="ComponentInfo{com.google.android.gm/com.google.android.gm.ConversationListActivityGmail}"
         drawable="adap_google_mail"
-        label="Gmail" />
+        label="Google Mail (Gmail)" />
     <item
         component="ComponentInfo{com.google.android.apps.maps/com.google.android.maps.MapsActivity}"
         drawable="adap_google_maps"
@@ -1032,7 +1032,7 @@
     <item
         component="ComponentInfo{com.google.android.dialer/com.google.android.dialer.extensions.GoogleDialtactsActivity}"
         drawable="adap_google_phone"
-        label="Phone" />
+        label="Google Phone" />
     <item
         component="ComponentInfo{com.microblink.photomath/com.microblink.photomath.main.activity.LauncherActivity}"
         drawable="adap_google_photomath"
@@ -1084,11 +1084,11 @@
     <item
         component="ComponentInfo{com.niksoftware.snapseed/com.google.android.apps.snapseed.WelcomeScreenActivity}"
         drawable="adap_google_snapseed"
-        label="Snapseed" />
+        label="Google Snapseed" />
     <item
         component="ComponentInfo{com.google.android.accessibility.soundamplifier/com.google.android.accessibility.soundamplifier.LauncherActivity}"
         drawable="adap_google_sound_amplifier"
-        label="Sound Amplifier" />
+        label="Google Sound Amplifier" />
     <item
         component="ComponentInfo{com.google.android.apps.wallpaper/com.google.android.apps.wallpaper.picker.CategoryPickerActivity}"
         drawable="adap_google_styles_and_wallpapers"
@@ -1112,27 +1112,27 @@
     <item
         component="ComponentInfo{com.google.android.wearable.app/com.google.android.clockwork.companion.launcher.LauncherActivity}"
         drawable="adap_google_wear_os"
-        label="Wear OS by Google" />
+        label="Google Wear OS" />
     <item
         component="ComponentInfo{com.google.android.youtube/com.google.android.youtube.app.honeycomb.Shell$HomeActivity}"
         drawable="adap_google_youtube"
-        label="Youtube" />
+        label="Google Youtube" />
     <item
         component="ComponentInfo{com.google.android.apps.youtube.producer/com.google.android.apps.youtube.producer.application.MainActivity}"
         drawable="adap_google_youtube_create"
-        label="YT Create" />
+        label="Google YT Create" />
     <item
         component="ComponentInfo{com.google.android.apps.youtube.kids/com.google.android.apps.youtube.kids.splash.SplashScreenActivity}"
         drawable="adap_google_youtube_kids"
-        label="Youtube Kids" />
+        label="Google Youtube Kids" />
     <item
         component="ComponentInfo{com.google.android.apps.youtube.music/com.google.android.apps.youtube.music.activities.MusicActivity}"
         drawable="adap_google_youtube_music"
-        label="Youtube Music" />
+        label="Google Youtube Music" />
     <item
         component="ComponentInfo{com.google.android.apps.youtube.creator/com.google.android.apps.youtube.creator.main.MainActivity}"
         drawable="adap_google_youtube_studio"
-        label="YT Studio" />
+        label="Google YT Studio" />
     <item
         component="ComponentInfo{com.grabtaxi.passenger/com.grab.pax.newface.presentation.newface.NewFace}"
         drawable="adap_grab"
@@ -1604,11 +1604,11 @@
     <item
         component="ComponentInfo{com.microsoft.bing/com.microsoft.sapphire.app.main.SapphireMainActivity}"
         drawable="adap_microsoft_bing"
-        label="Bing" />
+        label="Microsoft Bing" />
     <item
         component="ComponentInfo{com.microsoft.copilot/com.microsoft.sapphire.app.main.SapphireMainActivity}"
         drawable="adap_microsoft_copilot"
-        label="Copilot" />
+        label="Microsoft Copilot" />
     <item
         component="ComponentInfo{com.microsoft.scmx/com.microsoft.defender.ux.activity.MDMainActivity}"
         drawable="adap_microsoft_defender"
@@ -1616,31 +1616,31 @@
     <item
         component="ComponentInfo{com.microsoft.dynamics.ProjectMadeira/com.microsoft.dynamics.ProjectMadeira.MainActivity}"
         drawable="adap_microsoft_dynamics_365_business_central"
-        label="Dynamics 365 Business Central" />
+        label="Microsoft Dynamics 365 Business Central" />
     <item
         component="ComponentInfo{com.microsoft.crm.crmphone.fieldServices/com.microsoft.msapps.SplashActivity}"
         drawable="adap_microsoft_dynamics_365_field_service"
-        label="Dynamics 365 Field Service" />
+        label="Microsoft Dynamics 365 Field Service" />
     <item
         component="ComponentInfo{com.microsoft.dynamics365.operations.mobile/com.microsoft.dynamics365.operations.mobile.MainActivity}"
         drawable="adap_microsoft_dynamics_365_finance_and_operations"
-        label="Dynamics 365 Finance and Operations" />
+        label="Microsoft Dynamics 365 Finance and Operations" />
     <item
         component="ComponentInfo{com.microsoft.crm.crmphone/com.microsoft.crm.hybrid.activity.DynamicsRNHostActivity}"
         drawable="adap_microsoft_dynamics_365_for_phones"
-        label="Dynamics 365 for phones" />
+        label="Microsoft Dynamics 365 for phones" />
     <item
         component="ComponentInfo{com.microsoft.crm.crmphone.sales/com.microsoft.msapps.SplashActivity}"
         drawable="adap_microsoft_dynamics_365_sales"
-        label="Microsoft Sales" />
+        label="Microsoft Microsoft Sales" />
     <item
         component="ComponentInfo{com.microsoft.emmx/com.microsoft.ruby.Main}"
         drawable="adap_microsoft_edge"
-        label="Edge Browser" />
+        label="Microsoft Edge Browser" />
     <item
         component="ComponentInfo{com.microsoft.office.excel/com.microsoft.office.apphost.LaunchActivity}"
         drawable="adap_microsoft_excel"
-        label="Excel" />
+        label="Microsoft Excel" />
     <item
         component="ComponentInfo{com.microsoft.familysafety/com.microsoft.familysafety.MainActivity}"
         drawable="adap_microsoft_family_safety"
@@ -1652,7 +1652,7 @@
     <item
         component="ComponentInfo{com.microsoft.windowsintune.companyportal/com.microsoft.windowsintune.companyportal.views.SplashActivity}"
         drawable="adap_microsoft_intune_company_portal"
-        label="Company Portal" />
+        label="Microsoft Company Portal" />
     <item
         component="ComponentInfo{com.microsoft.launcher/com.microsoft.launcher.Launcher}"
         drawable="adap_microsoft_launcher"
@@ -1676,15 +1676,15 @@
     <item
         component="ComponentInfo{com.microsoft.skydrive/com.microsoft.skydrive.MainActivity}"
         drawable="adap_microsoft_onedrive"
-        label="OneDrive" />
+        label="Microsoft OneDrive" />
     <item
         component="ComponentInfo{com.microsoft.office.onenote/com.microsoft.office.onenote.ui.ONMSplashActivity}"
         drawable="adap_microsoft_onenote"
-        label="OneNote" />
+        label="Microsoft OneNote" />
     <item
         component="ComponentInfo{com.microsoft.office.outlook/com.microsoft.office.outlook.MainActivity}"
         drawable="adap_microsoft_outlook"
-        label="Outlook" />
+        label="Microsoft Outlook" />
     <item
         component="ComponentInfo{com.microsoft.planner/com.microsoft.planner.login.ConnectActivity}"
         drawable="adap_microsoft_planner"
@@ -1704,7 +1704,7 @@
     <item
         component="ComponentInfo{com.microsoft.office.powerpoint/com.microsoft.office.apphost.LaunchActivity}"
         drawable="adap_microsoft_powerpoint"
-        label="Powerpoint" />
+        label="Microsoft Powerpoint" />
     <item
         component="ComponentInfo{com.microsoft.ramobile/com.microsoft.ramobilenativeplugin.MainActivity}"
         drawable="adap_microsoft_remote_assist"
@@ -1720,11 +1720,11 @@
     <item
         component="ComponentInfo{com.microsoft.sharepoint/com.microsoft.sharepoint.MainActivity}"
         drawable="adap_microsoft_sharepoint"
-        label="Sharepoint" />
+        label="Microsoft Sharepoint" />
     <item
         component="ComponentInfo{com.microsoft.android.smsorganizer/com.microsoft.android.smsorganizer.StartupActivity}"
         drawable="adap_microsoft_sms_organizer"
-        label="SMS Organizer" />
+        label="Microsoft SMS Organizer" />
     <item
         component="ComponentInfo{microsoft.dynamics.commerce.storecommerce.android/crc64a33b46c72e25e56e.MainActivity}"
         drawable="adap_microsoft_store_commerce"
@@ -1744,11 +1744,11 @@
     <item
         component="ComponentInfo{com.microsoft.todos/com.microsoft.todos.ui.LaunchActivity}"
         drawable="adap_microsoft_todo"
-        label="To Do" />
+        label="Microsoft To Do" />
     <item
         component="ComponentInfo{com.microsoft.translator/com.microsoft.translator.activity.SplashActivity}"
         drawable="adap_microsoft_translator"
-        label="Translator" />
+        label="Microsoft Translator" />
     <item
         component="ComponentInfo{com.Microsoft.WarehouseManagement/crc6487e66b96573fbc07.SplashActivity}"
         drawable="adap_microsoft_warehouse_management"
@@ -1756,11 +1756,11 @@
     <item
         component="ComponentInfo{com.microsoft.whiteboard.publicpreview/com.microsoft.whiteboard.activity.WhiteBoardLauncherActivity}"
         drawable="adap_microsoft_whiteboard"
-        label="Whiteboard" />
+        label="Microsoft Whiteboard" />
     <item
         component="ComponentInfo{com.microsoft.office.word/com.microsoft.office.apphost.LaunchActivity}"
         drawable="adap_microsoft_word"
-        label="Word" />
+        label="Microsoft Word" />
     <item
         component="ComponentInfo{com.realtimeboard/com.realtimeboard.MainActivity}"
         drawable="adap_miro"

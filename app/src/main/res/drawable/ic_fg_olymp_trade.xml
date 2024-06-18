@@ -3,11 +3,11 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:fillType="evenOdd"
-        android:pathData="M77.32,52.28c0,8.01 -3,13.68 -7.34,17.69L62.3,61.62a12.35,12.35 0,0 0,3.34 -9.01c0,-16.69 -23.36,-16.69 -23.36,0a12.35,12.35 0,0 0,3.34 9.01L37.94,69.96C33.6,65.95 30.6,60.29 30.6,52.28 30.6,21.24 77.32,21.24 77.32,52.28Z" />
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:pathData="M37.28,79 L53.96,58.98 70.65,79Z" />
+  <path
+      android:pathData="M77.32,52.28C77.32,60.29 74.32,65.96 69.98,69.96L62.3,61.62C63.43,60.42 64.31,59 64.88,57.45C65.45,55.91 65.71,54.26 65.64,52.61C65.64,35.92 42.28,35.92 42.28,52.61C42.2,54.26 42.46,55.91 43.03,57.45C43.61,59 44.48,60.42 45.61,61.62L37.94,69.96C33.6,65.96 30.6,60.29 30.6,52.28C30.6,21.24 77.32,21.24 77.32,52.28Z"
+      android:fillColor="#E6E6E6"
+      android:fillType="evenOdd"/>
+  <path
+      android:pathData="M37.28,79L53.96,58.98L70.65,79H37.28Z"
+      android:fillColor="#21BF76"/>
 </vector>

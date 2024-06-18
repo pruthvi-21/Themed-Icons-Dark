@@ -3,10 +3,10 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:pathData="M76.13,70.93H36.5L42.13,75.63L76.13,70.93Z" />
-    <path
-        android:fillColor="@color/fg_icon_tint"
-        android:pathData="M48.57,39.59H52.86C55.81,39.59 58.23,42 58.23,44.96C58.23,47.94 55.81,50.34 52.86,50.34H48.57V39.59ZM48.57,67.7V56.94H53.22L61.27,67.7H69.5L59.77,54.71C62.8,52.53 64.8,48.98 64.8,44.96C64.8,38.36 59.44,33 52.86,33H42V67.7H48.57Z" />
+  <path
+      android:pathData="M76.13,70.92H36.5L42.13,75.62L76.13,70.92Z"
+      android:fillColor="#8A3FC6"/>
+  <path
+      android:pathData="M48.57,39.59H52.86C55.81,39.59 58.23,42 58.23,44.96C58.23,47.94 55.81,50.34 52.86,50.34H48.57V39.59ZM48.57,67.7V56.94H53.22L61.27,67.7H69.5L59.77,54.71C62.8,52.53 64.8,48.98 64.8,44.96C64.8,38.36 59.44,33 52.86,33H42V67.7H48.57Z"
+      android:fillColor="#8A3FC6"/>
 </vector>
