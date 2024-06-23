@@ -1,5 +1,6 @@
 package com.ps.tip.dark
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
@@ -9,6 +10,7 @@ import androidx.core.widget.doOnTextChanged
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.search.SearchBar
 import com.google.android.material.search.SearchView
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
@@ -25,6 +27,8 @@ class MainActivity : AppCompatActivity() {
     private val recyclerView: RecyclerView by lazy { findViewById(R.id.recycler_view) }
     private val searchRecyclerView: RecyclerView by lazy { findViewById(R.id.search_recycler_view) }
     private val fastScroller: RecyclerFastScroller by lazy { findViewById(R.id.fast_scroller) }
+
+    private val fabRequestIcons: FloatingActionButton by lazy { findViewById(R.id.fab_request_icons) }
 
     private val debounceJob = DebounceJob()
 
@@ -70,6 +74,10 @@ class MainActivity : AppCompatActivity() {
                 else finish()
             }
         })
+
+        fabRequestIcons.setOnClickListener {
+            startActivity(Intent(this, RequestIconsActivity::class.java))
+        }
     }
 
     companion object {

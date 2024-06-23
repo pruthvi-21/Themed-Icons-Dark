@@ -8,11 +8,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
-import com.bumptech.glide.Glide
-import com.bumptech.glide.load.engine.DiskCacheStrategy
-import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.ps.tip.dark.R
+import com.ps.tip.dark.utils.load
 
 class IconsAdapter(
     private val context: Context,
@@ -36,7 +34,7 @@ class IconsAdapter(
         }
 
         holder.iconLabel.text = icon.label
-        loadIcon(holder.iconView, icon.drawableResId)
+        holder.iconView.load(icon.drawableResId)
     }
 
     private fun buildDialog(context: Context, iconInfo: IconInfo): AlertDialog {
@@ -47,7 +45,7 @@ class IconsAdapter(
         val iconDrawableName: TextView = dialogView.findViewById(R.id.icon_drawable_name)
         val iconPackageName: TextView = dialogView.findViewById(R.id.icon_package_name)
 
-        loadIcon(iconView, iconInfo.drawableResId)
+        iconView.load(iconInfo.drawableResId)
         iconLabel.text = iconInfo.label
         iconDrawableName.text = iconInfo.drawableName
         iconPackageName.text = iconInfo.packageName
@@ -56,15 +54,6 @@ class IconsAdapter(
             .setView(dialogView)
             .setPositiveButton(android.R.string.ok, null)
             .create()
-    }
-
-    private fun loadIcon(imageView: ImageView, drawableRes: Int) {
-        Glide.with(context)
-            .load(drawableRes)
-            .skipMemoryCache(true)
-            .transition(DrawableTransitionOptions.withCrossFade(150))
-            .diskCacheStrategy(DiskCacheStrategy.NONE)
-            .into(imageView)
     }
 
     fun updateList(filter: String): Int {

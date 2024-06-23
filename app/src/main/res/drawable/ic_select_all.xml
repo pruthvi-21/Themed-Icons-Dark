@@ -1,0 +1,58 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M12.85,5.2V3.5H11.15V5.2H12.85Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M15.4,5.2H17.1V3.5H15.4V5.2Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M6.9,5.2H8.6V3.5H6.9V5.2Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M3.5,5.2L5.2,3.5H3.5V5.2Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M18.8,3.5L20.5,5.2V3.5H18.8Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M11.15,18.8V20.5H12.85V18.8H11.15Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M17.1,20.5V18.8H15.4V20.5H17.1Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M8.6,18.8H6.9V20.5H8.6V18.8Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M18.8,12.85H20.5V11.15H18.8V12.85Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M18.8,17.1H20.5V15.4H18.8V17.1Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M18.8,8.6H20.5V6.9H18.8V8.6Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M3.5,12.85H5.2V11.15H3.5V12.85Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M3.5,17.1H5.2V15.4H3.5V17.1Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M3.5,8.6H5.2V6.9H3.5V8.6Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M5.2,20.5L3.5,18.8V20.5H5.2Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M20.5,18.8L18.8,20.5H20.5V18.8Z" />
+    <path
+        android:fillColor="#ffffff"
+        android:fillType="evenOdd"
+        android:pathData="M16.851,7.149C17.01,7.309 17.1,7.525 17.1,7.75V16.25C17.1,16.476 17.01,16.692 16.851,16.851C16.691,17.011 16.475,17.1 16.25,17.1H7.75C7.524,17.1 7.308,17.011 7.149,16.851C6.989,16.692 6.9,16.476 6.9,16.25V7.75C6.9,7.525 6.989,7.309 7.149,7.149C7.308,6.99 7.524,6.9 7.75,6.9H16.25C16.475,6.9 16.691,6.99 16.851,7.149ZM8.6,15.4H15.4V8.6H8.6V15.4Z" />
+</vector>
