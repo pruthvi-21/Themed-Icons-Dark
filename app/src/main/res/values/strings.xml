@@ -6,4 +6,14 @@
     <string name="search_view_hint">Search icons</string>
     <string name="no_search_results">No search results</string>
     <string name="search_result_count">%1$d results</string>
+
+    <string name="cd_fab_send_icon_request">Send request</string>
+    <string name="toolbar_request_icons_title">Request Icons</string>
+    <string name="fab_request_icons">Request</string>
+    <string name="dialog_title_send_request">Sending icon request</string>
+    <string name="dialog_body_send_request">Please make sure you are connected to the internet.</string>
+    <string name="dialog_title_pick_email_client">Choose the email client you want to use to send the icon request</string>
+    <string name="dialog_btn_cancel">Cancel</string>
+    <string name="dialog_btn_cancel_countdown">Cancel (%1$d)</string>
+    <string name="toast_request_icons_positive_text">Request sent successfully</string>
 </resources>

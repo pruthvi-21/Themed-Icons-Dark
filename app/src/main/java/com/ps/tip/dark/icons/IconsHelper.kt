@@ -3,6 +3,10 @@ package com.ps.tip.dark.icons
 import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.Context
+import android.content.Intent
+import android.content.pm.ApplicationInfo
+import android.content.pm.PackageManager
+import android.content.pm.ResolveInfo
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
 import com.ps.tip.dark.R
@@ -35,11 +39,42 @@ object IconsHelper {
         }
         parser.close()
 
-        if(sorted) {
+        if (sorted) {
             icons.sortBy { it.label.lowercase(Locale.ROOT) }
         }
 
         return icons
+    }
+
+    fun getInstalledApps(context: Context): List<ApplicationInfo> {
+        val pm: PackageManager = context.packageManager
+
+        val intent = Intent(Intent.ACTION_MAIN, null)
+        intent.addCategory(Intent.CATEGORY_LAUNCHER)
+        val apps: List<ResolveInfo> = pm.queryIntentActivities(intent, 0)
+
+        val userApps = apps.filter { resolveInfo ->
+            val appInfo: ApplicationInfo = resolveInfo.activityInfo.applicationInfo
+            (appInfo.flags and ApplicationInfo.FLAG_SYSTEM) == 0
+        }
+
+        return userApps.map { resolveInfo ->
+            val appInfo: ApplicationInfo = resolveInfo.activityInfo.applicationInfo
+            appInfo
+        }
+    }
+
+    fun getMissingAppsList(context: Context): List<ApplicationInfo> {
+        val installedAppsList = getInstalledApps(context)
+        val availableAppsList = getIconsList(context).map { it.packageName }
+
+        return installedAppsList
+            .filter {
+                !availableAppsList.contains(it.packageName)
+            }
+            .sortedBy {
+                context.packageManager.getApplicationLabel(it).toString().lowercase()
+            }
     }
 
     private fun getDrawableByName(context: Context, drawableName: String?): Drawable? {
