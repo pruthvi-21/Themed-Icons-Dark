@@ -1,5 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+
+
+
+
+
+
+
+
+
     <item
         component="ComponentInfo{com.twelve.club/com.twelve.club.appUseCases.common.SplashActivity}"
         drawable="adap_12percent_club"
@@ -638,6 +647,10 @@
         drawable="adap_dream11"
         label="Dream11" />
     <item
+        component="ComponentInfo{com.looker.droidify/com.looker.droidify.MainActivity}"
+        drawable="adap_droidify"
+        label="Droid-ify" />
+    <item
         component="ComponentInfo{com.dropbox.android/com.dropbox.android.activity.DropboxBrowser}"
         drawable="adap_dropbox"
         label="Dropbox" />
@@ -775,6 +788,10 @@
         drawable="adap_financial_times"
         label="FT" />
     <item
+        component="ComponentInfo{dev.jdtech.jellyfin/dev.jdtech.jellyfin.MainActivity}"
+        drawable="adap_findroid"
+        label="Findroid" />
+    <item
         component="ComponentInfo{com.amazon.storm.lightning.client.aosp/com.amazon.bison.SplashScreen}"
         drawable="adap_fire_tv"
         label="Fire TV" />
@@ -849,6 +866,10 @@
         component="ComponentInfo{com.gaana/com.gaana.SplashScreenActivity}"
         drawable="adap_gaana"
         label="Gaana" />
+    <item
+        component="ComponentInfo{ua.com.radiokot.photoprism/ua.com.radiokot.photoprism.features.gallery.view.GalleryActivity}"
+        drawable="adap_gallery_for_photoprism"
+        label="Gallery for Photoprism" />
     <item
         component="ComponentInfo{free.programming.programming/free.programming.programming.splashscreen.SplashActivity}"
         drawable="adap_geeksforgeeks"
@@ -1245,6 +1266,10 @@
         component="ComponentInfo{com.imdb.mobile/com.imdb.mobile.HomeActivity}"
         drawable="adap_imdb"
         label="IMDb" />
+    <item
+        component="ComponentInfo{app.alextran.immich/app.alextran.immich.MainActivity}"
+        drawable="adap_immich"
+        label="Immich" />
     <item
         component="ComponentInfo{com.imo.android.imoim/com.imo.android.imoim.home.Home}"
         drawable="adap_imo"
@@ -1814,9 +1839,21 @@
         drawable="adap_navi"
         label="Navi" />
     <item
+        component="ComponentInfo{com.minhui.networkcapture/com.minhui.networkcapture.ui.SpalishActivity}"
+        drawable="adap_netcapture"
+        label="NetCapture" />
+    <item
         component="ComponentInfo{com.netflix.mediaclient/com.netflix.mediaclient.ui.launch.UIWebViewActivity}"
         drawable="adap_netflix"
         label="Netflix" />
+    <item
+        component="ComponentInfo{eu.faircode.netguard/eu.faircode.netguard.ActivityMain}"
+        drawable="adap_netguard"
+        label="NetGuard" />
+    <item
+        component="ComponentInfo{com.nextcloud.client/com.nmc.android.ui.LauncherActivity}"
+        drawable="adap_nextcloud"
+        label="Nextcloud" />
     <item
         component="ComponentInfo{bitpit.launcher/bitpit.launcher.ui.HomeActivity}"
         drawable="adap_niagara_launcher"
@@ -1894,6 +1931,10 @@
         drawable="adap_obsidian"
         label="Obsidian" />
     <item
+        component="ComponentInfo{dev.imranr.obtainium.fdroid/dev.imranr.obtainium.MainActivity}"
+        drawable="adap_obtainium"
+        label="Obtainium" />
+    <item
         component="ComponentInfo{com.mobisystems.office/com.mobisystems.office.splashScreen.SplashScreenActivity}"
         drawable="adap_officesuite"
         label="OfficeSuite" />
@@ -1961,6 +2002,10 @@
         component="ComponentInfo{com.papajohns.android/com.papajohns.android.welcome.WelcomeActivity}"
         drawable="adap_papa_johns"
         label="Papa Johns" />
+    <item
+        component="ComponentInfo{de.astubenbord.paperless_mobile/de.astubenbord.paperless_mobile.MainActivity}"
+        drawable="adap_paperless_ngx"
+        label="Paperless Mobile" />
     <item
         component="ComponentInfo{net.one97.paytm/net.one97.paytm.landingpage.activity.AJRMainActivity}"
         drawable="adap_paytm"
@@ -2402,9 +2447,17 @@
         drawable="adap_sbi_securities"
         label="SBI Securities" />
     <item
+        component="ComponentInfo{com.seafile.seadroid2/com.seafile.seadroid2.ui.activity.BrowserActivity}"
+        drawable="adap_seafile"
+        label="Seafile" />
+    <item
         component="ComponentInfo{com.fast.free.unblock.secure.vpn/com.signallab.secure.activity.SplashActivity}"
         drawable="adap_secure_vpn"
         label="Secure VPN" />
+    <item
+        component="ComponentInfo{by4a.setedit22/by4a.setedit.EditorActivity}"
+        drawable="adap_4a_settings_database_editor"
+        label="4A Settings Database Editor (Setedit)" />
     <item
         component="ComponentInfo{com.phonepe.stockbroking/com.phonepe.stockbroking.ui.stockhome.SMActivity}"
         drawable="adap_share_market_by_phonepe"
