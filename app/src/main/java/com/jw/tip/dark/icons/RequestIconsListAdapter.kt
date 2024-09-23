@@ -1,4 +1,4 @@
-package com.ps.tip.dark.icons
+package com.jw.tip.dark.icons
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -9,8 +9,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.appcompat.widget.AppCompatCheckBox
 import androidx.recyclerview.widget.RecyclerView
-import com.ps.tip.dark.R
-import com.ps.tip.dark.utils.load
+import com.jw.tip.dark.R
+import com.jw.tip.dark.utils.load
 
 class RequestIconsListAdapter(
     context: Context,

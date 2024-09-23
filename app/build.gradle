@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.ps.tip.dark'
+    namespace 'com.jw.tip.dark'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.ps.tip.dark"
+        applicationId "com.jw.tip.dark"
         minSdk 31
         targetSdk 34
         versionCode 1

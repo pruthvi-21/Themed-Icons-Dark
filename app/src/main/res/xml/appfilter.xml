@@ -1439,7 +1439,7 @@
         drawable="adap_keeper"
         label="Keeper" />
     <item
-        component="ComponentInfo{com.ps.keepass/com.ps.keepass.activities.FileDatabaseSelectActivity}"
+        component="ComponentInfo{com.jw.keepass/com.jw.keepass.activities.FileDatabaseSelectActivity}"
         drawable="adap_keetrunk"
         label="KeeTrunk" />
     <item
@@ -2719,7 +2719,7 @@
         drawable="adap_the_home_depot"
         label="The Home Depot" />
     <item
-        component="ComponentInfo{com.ps.mui3.tip/com.ps.mui3.tip.MainActivity}"
+        component="ComponentInfo{com.jw.mui3.tip/com.jw.mui3.tip.MainActivity}"
         drawable="adap_themed_icons_m3"
         label="ThemedIconsM3" />
     <item
@@ -2763,7 +2763,7 @@
         drawable="adap_todoist"
         label="Todoist" />
     <item
-        component="ComponentInfo{com.ps.tokky/com.ps.tokky.activities.AuthenticationActivity}"
+        component="ComponentInfo{com.jw.tokky/com.jw.tokky.activities.AuthenticationActivity}"
         drawable="adap_tokky"
         label="Tokky" />
     <item

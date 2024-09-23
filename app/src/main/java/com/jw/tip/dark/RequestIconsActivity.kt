@@ -1,4 +1,4 @@
-package com.ps.tip.dark
+package com.jw.tip.dark
 
 import android.content.DialogInterface
 import android.os.Bundle
@@ -17,13 +17,13 @@ import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-import com.ps.tip.dark.icons.EmailProviderAdapter
-import com.ps.tip.dark.icons.IconsHelper
-import com.ps.tip.dark.icons.RequestIconsListAdapter
-import com.ps.tip.dark.utils.Constants.REQUEST_TIME_OUT_DURATION
-import com.ps.tip.dark.utils.EmailUtils
-import com.ps.tip.dark.utils.FirebaseDatabaseHelper
-import com.ps.tip.dark.utils.IconsRequestBuilder
+import com.jw.tip.dark.icons.EmailProviderAdapter
+import com.jw.tip.dark.icons.IconsHelper
+import com.jw.tip.dark.icons.RequestIconsListAdapter
+import com.jw.tip.dark.utils.Constants.REQUEST_TIME_OUT_DURATION
+import com.jw.tip.dark.utils.EmailUtils
+import com.jw.tip.dark.utils.FirebaseDatabaseHelper
+import com.jw.tip.dark.utils.IconsRequestBuilder
 
 class RequestIconsActivity : AppCompatActivity() {
 

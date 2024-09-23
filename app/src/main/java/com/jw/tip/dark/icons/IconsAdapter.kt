@@ -1,4 +1,4 @@
-package com.ps.tip.dark.icons
+package com.jw.tip.dark.icons
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -9,8 +9,8 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.ps.tip.dark.R
-import com.ps.tip.dark.utils.load
+import com.jw.tip.dark.R
+import com.jw.tip.dark.utils.load
 
 class IconsAdapter(
     private val context: Context,

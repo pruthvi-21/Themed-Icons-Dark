@@ -1,4 +1,4 @@
-package com.ps.tip.dark.icons
+package com.jw.tip.dark.icons
 
 import android.annotation.SuppressLint
 import android.content.ComponentName
@@ -9,7 +9,7 @@ import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 import android.graphics.drawable.Drawable
 import androidx.core.content.ContextCompat
-import com.ps.tip.dark.R
+import com.jw.tip.dark.R
 import org.xmlpull.v1.XmlPullParser
 import java.util.Locale
 

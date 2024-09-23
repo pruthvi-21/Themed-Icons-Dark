@@ -1,4 +1,4 @@
-package com.ps.tip.dark.utils
+package com.jw.tip.dark.utils
 
 import android.content.Context
 import android.content.Intent

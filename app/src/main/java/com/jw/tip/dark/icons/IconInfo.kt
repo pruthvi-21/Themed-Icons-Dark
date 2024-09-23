@@ -1,4 +1,4 @@
-package com.ps.tip.dark.icons
+package com.jw.tip.dark.icons
 
 import android.content.ComponentName
 

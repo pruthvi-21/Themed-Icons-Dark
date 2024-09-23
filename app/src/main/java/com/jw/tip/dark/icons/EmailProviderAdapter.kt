@@ -1,4 +1,4 @@
-package com.ps.tip.dark.icons
+package com.jw.tip.dark.icons
 
 import android.content.Context
 import android.content.pm.ResolveInfo
@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.BaseAdapter
 import android.widget.ImageView
 import android.widget.TextView
-import com.ps.tip.dark.R
+import com.jw.tip.dark.R
 
 class EmailProviderAdapter(
     private val context: Context,

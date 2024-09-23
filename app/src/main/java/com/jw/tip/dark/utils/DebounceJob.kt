@@ -1,4 +1,4 @@
-package com.ps.tip.dark.utils
+package com.jw.tip.dark.utils
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Job

@@ -1,4 +1,4 @@
-package com.ps.tip.dark
+package com.jw.tip.dark
 
 import android.content.Intent
 import android.os.Bundle
@@ -14,9 +14,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.search.SearchBar
 import com.google.android.material.search.SearchView
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
-import com.ps.tip.dark.icons.IconsAdapter
-import com.ps.tip.dark.icons.IconsHelper
-import com.ps.tip.dark.utils.DebounceJob
+import com.jw.tip.dark.icons.IconsAdapter
+import com.jw.tip.dark.icons.IconsHelper
+import com.jw.tip.dark.utils.DebounceJob
 
 class MainActivity : AppCompatActivity() {
 
