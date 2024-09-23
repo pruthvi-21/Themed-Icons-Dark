@@ -16,7 +16,6 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
 import com.jw.tip.dark.icons.EmailProviderAdapter
 import com.jw.tip.dark.icons.IconsHelper
 import com.jw.tip.dark.icons.RequestIconsListAdapter
@@ -24,6 +23,7 @@ import com.jw.tip.dark.utils.Constants.REQUEST_TIME_OUT_DURATION
 import com.jw.tip.dark.utils.EmailUtils
 import com.jw.tip.dark.utils.FirebaseDatabaseHelper
 import com.jw.tip.dark.utils.IconsRequestBuilder
+import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
 
 class RequestIconsActivity : AppCompatActivity() {
 
@@ -72,7 +72,7 @@ class RequestIconsActivity : AppCompatActivity() {
         val iconRequestJson = IconsRequestBuilder.build(this, selectedAppsList)
         FirebaseDatabaseHelper.checkConnection {
             if (isCancelled) return@checkConnection
-            FirebaseDatabaseHelper.sendRequest(iconRequestJson.toString()) { status ->
+            FirebaseDatabaseHelper.sendRequest(iconRequestJson.toString(), { status ->
                 progressDialog.dismiss()
 
                 if (status) {
@@ -84,10 +84,15 @@ class RequestIconsActivity : AppCompatActivity() {
                         .show()
                     finish()
                 } else {
+                    Toast.makeText(this, R.string.toast_request_icons_error_text, Toast.LENGTH_SHORT)
+                        .show()
                     //TODO: Fallback to email
                     //showEmailDialog()
                 }
-            }
+            }, { _ ->
+                Toast.makeText(this, R.string.toast_request_icons_error_text, Toast.LENGTH_SHORT)
+                    .show()
+            })
         }
 
     }

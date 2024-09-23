@@ -10,12 +10,19 @@ object FirebaseDatabaseHelper {
     private const val CHECK_CONNECTION_PATH = "check/"
     private const val ICON_REQUEST_PATH = "requests/"
 
-    fun sendRequest(data: String, onComplete: (Boolean) -> Unit) {
+    fun sendRequest(
+        data: String,
+        onComplete: (Boolean) -> Unit,
+        onFailure: (Exception) -> Unit
+    ) {
         databaseReference.child(ICON_REQUEST_PATH)
             .push()
             .setValue(data)
             .addOnCompleteListener { task ->
                 onComplete(task.isSuccessful)
+            }
+            .addOnFailureListener { err ->
+                onFailure(err)
             }
     }
 

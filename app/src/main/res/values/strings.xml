@@ -16,4 +16,5 @@
     <string name="dialog_btn_cancel">Cancel</string>
     <string name="dialog_btn_cancel_countdown">Cancel (%1$d)</string>
     <string name="toast_request_icons_positive_text">Request sent successfully</string>
+    <string name="toast_request_icons_error_text">Failed. Please retry later.</string>
 </resources>
