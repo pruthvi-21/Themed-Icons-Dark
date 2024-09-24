@@ -17,4 +17,5 @@
     <string name="dialog_btn_cancel_countdown">Cancel (%1$d)</string>
     <string name="toast_request_icons_positive_text">Request sent successfully</string>
     <string name="toast_request_icons_error_text">Failed. Please retry later.</string>
+    <string name="toast_request_icons_over_limit">Only one request is allowed each day. Please try again tomorrow.</string>
 </resources>

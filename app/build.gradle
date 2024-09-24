@@ -17,9 +17,14 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField "int", "REQUEST_LIMIT", "Integer.MAX_VALUE"
+        }
         release {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+
+            buildConfigField "int", "REQUEST_LIMIT", "1"
         }
     }
     compileOptions {

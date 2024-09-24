@@ -1,5 +1,6 @@
 package com.jw.tip.dark
 
+import android.content.Context
 import android.content.DialogInterface
 import android.os.Bundle
 import android.os.CountDownTimer
@@ -20,12 +21,16 @@ import com.jw.tip.dark.icons.EmailProviderAdapter
 import com.jw.tip.dark.icons.IconsHelper
 import com.jw.tip.dark.icons.RequestIconsListAdapter
 import com.jw.tip.dark.utils.Constants.REQUEST_TIME_OUT_DURATION
+import com.jw.tip.dark.utils.DeviceUtils
 import com.jw.tip.dark.utils.EmailUtils
 import com.jw.tip.dark.utils.FirebaseDatabaseHelper
 import com.jw.tip.dark.utils.IconsRequestBuilder
+import com.jw.tip.dark.utils.PreferenceUtils
 import com.pluscubed.recyclerfastscroll.RecyclerFastScroller
 
 class RequestIconsActivity : AppCompatActivity() {
+
+    private val preferenceUtils by lazy { PreferenceUtils(getPreferences(Context.MODE_PRIVATE)) }
 
     private var adapter: RequestIconsListAdapter? = null
     private val toolbar: Toolbar by lazy { findViewById(R.id.toolbar) }
@@ -50,7 +55,18 @@ class RequestIconsActivity : AppCompatActivity() {
         fastScroller.attachRecyclerView(recyclerView)
 
         submitFab.setOnClickListener {
-            sendIconRequestToFirebase()
+            preferenceUtils.canMakeRequest(DeviceUtils.getUserId(this)) { canProceed ->
+                if (!canProceed) {
+                    Toast.makeText(
+                        this,
+                        R.string.toast_request_icons_over_limit,
+                        Toast.LENGTH_SHORT
+                    )
+                        .show()
+                    return@canMakeRequest
+                }
+                sendIconRequestToFirebase()
+            }
         }
     }
 
@@ -69,10 +85,10 @@ class RequestIconsActivity : AppCompatActivity() {
             .filter { it.isChecked }
             .map { it.appInfo }
 
-        val iconRequestJson = IconsRequestBuilder.build(this, selectedAppsList)
+        val firebaseRequestData = IconsRequestBuilder.build(this, selectedAppsList)
         FirebaseDatabaseHelper.checkConnection {
             if (isCancelled) return@checkConnection
-            FirebaseDatabaseHelper.sendRequest(iconRequestJson.toString(), { status ->
+            FirebaseDatabaseHelper.sendRequest(firebaseRequestData, { status ->
                 progressDialog.dismiss()
 
                 if (status) {
@@ -82,9 +98,14 @@ class RequestIconsActivity : AppCompatActivity() {
                         Toast.LENGTH_SHORT
                     )
                         .show()
+                    preferenceUtils.updateRequestData()
                     finish()
                 } else {
-                    Toast.makeText(this, R.string.toast_request_icons_error_text, Toast.LENGTH_SHORT)
+                    Toast.makeText(
+                        this,
+                        R.string.toast_request_icons_error_text,
+                        Toast.LENGTH_SHORT
+                    )
                         .show()
                     //TODO: Fallback to email
                     //showEmailDialog()
