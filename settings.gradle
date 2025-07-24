@@ -13,5 +13,5 @@ dependencyResolutionManagement {
         maven { setUrl("https://jitpack.io") }
     }
 }
-rootProject.name = "Dark Icon pack"
+rootProject.name = "dark-theme-icons"
 include ':app'
